@@ -57,6 +57,6 @@ public class App {
 		
 		array.removeElement(5);
 		array.removeElement(15);
-		System.out.println(array);
+		System.out.println(array);	// 2;3;4;6;7;8;0;0;0;0;
 	}
 }
