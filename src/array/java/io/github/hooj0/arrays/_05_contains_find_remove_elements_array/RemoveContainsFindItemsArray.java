@@ -55,7 +55,7 @@ public class RemoveContainsFindItemsArray extends GetterSetterItemsArray {
 			int end = this.size + 1;
 			if (end >= this.getCap()) {
 				end = this.size;
-				this.arrays[end] = 0;
+				//this.arrays[end] = 0;
 			}
 			
 			// 删除位置的元素，都向前移动一个位置
@@ -77,7 +77,7 @@ public class RemoveContainsFindItemsArray extends GetterSetterItemsArray {
 	
 	// 删除最后一个元素
 	public int removeLast() {
-		return this.remove(size);
+		return this.remove(size - 1);
 	}
 	
 	// 删除指定元素，返回是否删除成功
