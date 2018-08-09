@@ -13,8 +13,8 @@ package io.github.hooj0.arrays._04_getter_setter_elements_array;
  */
 public class GetterSetterItemsArray {
 	
-	private int[] arrays;
-	private int size;
+	protected int[] arrays;
+	protected int size;
 	
 	// 构造函数，可以构建指定大小空间的数组
 	public GetterSetterItemsArray(int capacity) {
@@ -74,22 +74,24 @@ public class GetterSetterItemsArray {
 		size++;
 	}
 	
+	// 设置元素，将指定位置上的元素进行替换，如果索引超过范围就抛出异常
 	public void set(int index, int item) {
 		if (index < 0) {
 			throw new IllegalArgumentException("Array index out of bounds");
 		}
-		if (index > this.getSize()) {
+		if (index >= this.getSize()) {
 			throw new IllegalArgumentException("Discontinuous fragmentation data");
 		}
 		
 		this.arrays[index] = item;
 	}
 	
+	// 获取指定位置上的元素，如果索引超过范围就抛出异常
 	public int get(int index) {
 		if (index < 0) {
 			throw new IllegalArgumentException("Array index out of bounds");
 		}
-		if (index > this.getSize()) {
+		if (index >= this.getSize()) {
 			throw new IllegalArgumentException("Discontinuous fragmentation data");
 		}
 		
