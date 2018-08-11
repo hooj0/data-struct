@@ -2,7 +2,7 @@
 
 | 数据结构 :speech_balloon: | 年代 :speech_balloon: | 难度 :speech_balloon: | 实用性 :speech_balloon: | 重要度 :speech_balloon: | 友好度 :speech_balloon: | 性能 :speech_balloon: | 有序性 :speech_balloon: | 安全性 :speech_balloon: |
 | :---------------------------: | :----------------------: | :----------------------: | :------------------------: | :------------------------: | :------------------------: | :----------------------: | :------------------------: | :----: |
-|             数组              |           原始           |          :star:          |            ★★★★            |           ★★★★★            |        :star::star:        |           ★★★            |     :white_check_mark:     |  :x:   |
+|             数组              |           原始           |          :star:          |            :star::star::star::star:            | :star::star::star::star::star: |        :star::star:        | :star::star::star: |     :white_check_mark:     |  :x:   |
 
 ## 概念
 
