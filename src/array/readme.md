@@ -255,8 +255,6 @@ public class GenericDataStructArray<E> {
 }
 ```
 
-
-
 ## 应用场景
 
 数组应用场景非常广泛，随处可以见到，比如Java中的`main`函数的参数就是数组。
