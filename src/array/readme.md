@@ -257,13 +257,13 @@ public class GenericDataStructArray<E> {
 
 ## 应用场景
 
-数组应用场景非常广泛，随处可以见到，比如Java中的`main`函数的参数就是数组。
+数组应用场景非常广泛，随处可以见到，比如Java中的`main`函数的参数就是数组。只要存在存储多个相同类型的数据集合的情况，就可以使用数组进行保存。
 
 ## 应用实例参考
 
 ### `JavaSDK`
 
-
+`String` 类中的 `java.lang.String.serialPersistentFields` 属性就是数组类型。
 
 ### `GoSDK`
 
@@ -271,11 +271,9 @@ public class GenericDataStructArray<E> {
 
 ### `JavaScript Libs`
 
-
-
 ## 总结
 
-
+数组功能强大，不可小瞧。应用也非常丰富，使用场景广泛，在平日里的编码中会经常使用数组，要熟练掌握数组的转换和数组数据的复制、移动、拼接等操作方法。同时注意数组下标越界异常`IndexOutOfBoundsException`，应该尽量避免这类低级错误的发生。
 
 ## 参考资料
 
