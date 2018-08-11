@@ -263,7 +263,11 @@ public class GenericDataStructArray<E> {
 
 ### `JavaSDK`
 
-`String` 类中的 `java.lang.String.serialPersistentFields` 属性就是数组类型。
+`String` 类中的数组应用，参考：`java.lang.String.serialPersistentFields` 属性
+
+`ArrayList` 的实现方式采用的就是数组， 参考：`java.util.Arrays.ArrayList<E>`
+
+`Vector` 集合中的数组应用，参考：`java.util.Vector<E>`
 
 ### `GoSDK`
 
@@ -273,9 +277,15 @@ public class GenericDataStructArray<E> {
 
 ## 总结
 
-数组功能强大，不可小瞧。应用也非常丰富，使用场景广泛，在平日里的编码中会经常使用数组，要熟练掌握数组的转换和数组数据的复制、移动、拼接等操作方法。同时注意数组下标越界异常`IndexOutOfBoundsException`，应该尽量避免这类低级错误的发生。
+数组功能强大，不可小瞧。应用也非常丰富，使用场景广泛，在平日里的编码中会经常使用数组，要熟练掌握数组的转换和数组的复制、移动、拼接等操作方法。
+
+同时注意数组下标越界异常`IndexOutOfBoundsException`，应该尽量避免这类低级错误的发生。
+
+数组在多线程场景下，避免对同一个下标位置的元素进行**写**操作，当然如果是单纯的读模式的操作，那多线程没有什么问题。
 
 ## 参考资料
+
++ https://github.com/kdn251/interviews
 
 
 
