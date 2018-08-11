@@ -37,6 +37,7 @@ public class ArrayModel {
 		scores[0] = 223;
 		
 		System.out.println(scores[0]);
+		System.out.println(scores[9]);
 		
 		// 克隆数组对象
 		int[] cloneScores = scores.clone();
