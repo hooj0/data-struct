@@ -2,6 +2,8 @@
 
 :recycle: 经典数据和基本算法集合，实现语言会有 Go, Python, JavaScript, Java。
 
+![房子](http://imglf5.nosdn0.126.net/img/blFtbWVBVFB6b05KRzk5V2JtR2Vjb2UySkxoK2trRkZVR0hDMVBRbCtGUEJjSWNqdW1jakdRPT0.jpg?imageView&thumbnail=1680x0&quality=96&stripmeta=0&type=jpg)
+
 |               数据模型               | 描述                                                         |              实现语言              |
 | :----------------------------------: | ------------------------------------------------------------ | :--------------------------------: |
 |             数组 `Array`             | 数组是用于有序储存多个相同类型数据的集合。                   | Java \| Python \| Go \| JavaScript |
