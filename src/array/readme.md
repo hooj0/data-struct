@@ -96,13 +96,13 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 ### 获取和设置元素的自定义数组
 
-+ 图解：获取指定索引上的元素
-
-  ![1534040784781](images/1534040784781.png)
-
 + 图解：设置指定索引上的元素
 
   ![1534040765641](images/1534040765641.png)
+
++ 图解：获取指定索引上的元素
+
+  ![1534040784781](images/1534040784781.png)
 
 + 实现代码：[GetterSetterItemsArray.java](./java/io/github/hooj0/arrays/_04_getter_setter_elements_array/GetterSetterItemsArray.java)
 
@@ -127,6 +127,14 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 + 实现代码：[GenericDataStructArray.java](java/io/github/hooj0/arrays/_06_generic_data_struct_array/GenericDataStructArray.java)
 
 ### 扩充数组容量
+
++ 图解：当容量不够，自动扩展容量
+
+  ![1534043957984](images/1534043957984.png)
+
++ 图解：当容量过大，自动缩减容量
+
+  ![1534043973181](images/1534043973181.png)
 
 + 实现代码：[ExpandCapacityArray.java](java/io/github/hooj0/arrays/_07_expand_capacity_array/ExpandCapacityArray.java)
 
