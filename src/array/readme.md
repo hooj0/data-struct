@@ -134,7 +134,7 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 + 图解：当容量过大，自动缩减容量
 
-  ![1534043973181](images/1534043973181.png)
+  ![1534044978716](images/1534043973181.png)
 
 + 实现代码：[ExpandCapacityArray.java](java/io/github/hooj0/arrays/_07_expand_capacity_array/ExpandCapacityArray.java)
 
