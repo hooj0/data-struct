@@ -82,7 +82,9 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 + 实现代码：[CustomArray.java](./java/io/github/hooj0/arrays/_02_custom_array/CustomArray.java)
 
-### 添加元素的自定义数组
+### 添加元素
+
+进一步封装数组，让封装对象支持添加新元素的方法、支持在首部添加元素、在尾部添加新元素的方法。
 
 + 图解：在首部添加元素
 
@@ -98,7 +100,9 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 + 实现代码：[CustomAddItemsArray.java](./java/io/github/hooj0/arrays/_03_add_elements_array/CustomAddItemsArray.java)
 
-### 获取和设置元素的自定义数组
+### 获取和设置元素
+
+在上一次封装基础上，添加在数组对象上获取指定索引位置上的元素的方法，可以设置某个索引上的元素。
 
 + 图解：设置指定索引上的元素
 
@@ -111,6 +115,8 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 + 实现代码：[GetterSetterItemsArray.java](./java/io/github/hooj0/arrays/_04_getter_setter_elements_array/GetterSetterItemsArray.java)
 
 ### 删除数组元素
+
+添加删除方法，支持删除首部的元素、删除尾部的元素、删除指定索引上的元素，支持查找元素，支持判断元素是否存在数组中的方法。
 
 + 图解：删除首部元素
 
@@ -128,9 +134,13 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 ### 泛型数组封装
 
+让数组支持泛型类型，可以存储任意类型的数据。
+
 + 实现代码：[GenericDataStructArray.java](java/io/github/hooj0/arrays/_06_generic_data_struct_array/GenericDataStructArray.java)
 
 ### 扩充数组容量
+
+能够自动扩充数组的容量，在删除数组的时候，若数组已存储数据容量小于空闲容量会进行自动缩减容量，降低对内存的消耗；相反，如果在添加数据时候，发现空闲容量不足已存储容量的一倍，将扩展到一倍容量。
 
 + 图解：当容量不够，自动扩展容量
 
