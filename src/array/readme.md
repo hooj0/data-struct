@@ -109,8 +109,16 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 ### 删除数组元素
 
 + 图解：删除首部元素
+
+  ![1534042182498](images/1534042182498.png)
+
 + 图解：删除尾部元素
+
+  ![1534042207055](images/1534042207055.png)
+
 + 图解：删除索引位置元素
+
+  ![1534042256695](images/1534042256695.png)
 
 + 实现代码：[RemoveContainsFindItemsArray.java](java/io/github/hooj0/arrays/_05_contains_find_remove_elements_array/RemoveContainsFindItemsArray.java)
 
