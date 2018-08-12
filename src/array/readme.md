@@ -47,10 +47,6 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
   ![1533995305512](images/1533995305512.png)
 
-+ 全部赋值后的数据结构
-
-![1533977945815](images/1533977945815.png)
-
 ## 性能分析
 
 + **插入**数组插入速度直接通过索引定位，**时间复杂度**：`O(1)`
@@ -72,11 +68,59 @@ Java的数组是由原始底层提供，其底层提供的方法有构建数组�
 
 ![1534000784764](images/1534000784764.png)
 
-+ 代码：[ArrayModel.java](./java/io/github/hooj0/arrays/_01_basic_array/ArrayModel.java)
++ 数组简单应用，实现代码：[ArrayModel.java](./java/io/github/hooj0/arrays/_01_basic_array/ArrayModel.java)
 
-### 封装数组
+### 简单自定义数组封装
 
++ 图解
 
+  ![1534039504719](images/1534038871640.png)
+
++ 封装数组，实现代码：[CustomArray.java](./java/io/github/hooj0/arrays/_02_custom_array/CustomArray.java)
+
+### 添加元素的自定义数组
+
++ 图解：在首部添加元素
+
+  ![1534039745894](images/1534039745894.png)
+
++ 图解：在尾部添加元素
+
+  ![1534039798381](images/1534039798381.png)
+
++ 图解：在中间位置插入元素
+
+  ![1534039826478](images/1534039826478.png)
+
++ 实现代码：[CustomAddItemsArray.java](./java/io/github/hooj0/arrays/_03_add_elements_array/CustomAddItemsArray.java)
+
+### 获取和设置元素的自定义数组
+
++ 图解：获取指定索引上的元素
+
+  ![1534040784781](images/1534040784781.png)
+
++ 图解：设置指定索引上的元素
+
+  ![1534040765641](images/1534040765641.png)
+
++ 实现代码：[GetterSetterItemsArray.java](./java/io/github/hooj0/arrays/_04_getter_setter_elements_array/GetterSetterItemsArray.java)
+
+### 删除数组元素
+
++ 图解：删除首部元素
++ 图解：删除尾部元素
++ 图解：删除索引位置元素
+
++ 实现代码：[RemoveContainsFindItemsArray.java](java/io/github/hooj0/arrays/_05_contains_find_remove_elements_array/RemoveContainsFindItemsArray.java)
+
+### 泛型数组封装
+
++ 实现代码：[GenericDataStructArray.java](java/io/github/hooj0/arrays/_06_generic_data_struct_array/GenericDataStructArray.java)
+
+### 扩充数组容量
+
++ 实现代码：[ExpandCapacityArray.java](java/io/github/hooj0/arrays/_07_expand_capacity_array/ExpandCapacityArray.java)
 
 ## 应用场景
 
